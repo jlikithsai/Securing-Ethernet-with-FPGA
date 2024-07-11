@@ -1,0 +1,26 @@
+# LaTeX
+*.log
+*.aux
+
+# Vivado
+/nexys4-proj/nexys4-proj.*/
+!/nexys4-proj/nexys4-proj.srcs/
+/nexys4-proj/nexys4-proj.srcs/sources_1/ip/*/*
+!/nexys4-proj/nexys4-proj.srcs/sources_1/ip/*/
+!/nexys4-proj/nexys4-proj.srcs/sources_1/ip/*/*.xci
+!/nexys4-proj/nexys4-proj.srcs/sources_1/ip/*/*.prj
+/nexys4-viv2016.2-proj/nexys4-proj.*/
+!/nexys4-viv2016.2-proj/nexys4-proj.srcs/
+/nexys4-viv2016.2-proj/nexys4-proj.srcs/sources_1/ip/*/*
+!/nexys4-viv2016.2-proj/nexys4-proj.srcs/sources_1/ip/*/
+!/nexys4-viv2016.2-proj/nexys4-proj.srcs/sources_1/ip/*/*.xci
+!/nexys4-viv2016.2-proj/nexys4-proj.srcs/sources_1/ip/*/*.prj
+*.wcfg
+
+# Python
+__pycache__
+
+# Generated files
+/coe/*.coe
+/laptop-src/dump.log
+/hdl/inc/packet_synth_rom_layout.vh
